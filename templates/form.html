@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/myfile.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-4 offset-4">
+                <h1 class="text-bg-success bg-opacity-50 p-3">Форма для поиска</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-8">
+                <form action="results.html">
+                    <br>
+                    <p>
+                        <input type="text" name="query" value="" placeholder="строка поиска">
+                    </p>
+                    <br>
+                    <p class="text-light">Где искать:</p>
+                    <p>
+                        <select name="where">
+                            <option value="000">Везде</option>
+                            <option value="111">В названии компании</option>
+                            <option value="222">В названии вакансии</option>
+                            <option value="333">В названии города</option>
+                            <option value="444">В названии региона</option>
+                        </select>
+                    </p>
+                    <br>
+                    <p>
+                        <input type="submit" value="Искать вакансии">
+                    </p>
+                    <br>
+                    <p><a href="index.html" class="btn btn-success fs-4" role="button">На главную страницу</a></p>
+                </form>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+body {
+  background-image: linear-gradient(rgba(47, 23, 15, 0.5), rgba(47, 23, 15, 0.5)), url("../assets/img/bg_t1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
